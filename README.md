@@ -16,7 +16,7 @@ The following are the basic requirements to **start** the setup.
 1. Login to Azure Portal at http://portal.azure.com.
 2. Open the Azure Cloud Shell and choose Bash Shell (do not choose Powershell)
 
-
+   ![214944180-0b72595f-b58d-445d-9bde-2530bd491ace](https://github.com/user-attachments/assets/bdb8c952-7053-46f6-bd86-fdb8def3596c)
 
 3. The first time Cloud Shell is started will require you to create a storage account.
 
