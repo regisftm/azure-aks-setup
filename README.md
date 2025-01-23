@@ -192,3 +192,26 @@ The following are the basic requirements to **start** the setup.
     ```bash
     az aks start --resource-group $RESOURCE_GROUP --name $CLUSTERNAME
     ```
+
+## Clean up
+
+1. Delete the AKS cluster.
+
+   ```bash
+   az aks delete \
+     --resource-group $RESOURCE_GROUP \
+     --name $CLUSTERNAME
+   ```
+
+2. Delete the resource group.
+
+   ```bash
+   az group delete \
+     --name $RESOURCE_GROUP
+   ```
+
+3. Delete environment variables backup file.
+
+   ```bash
+   rm aksvars.env
+   ```
